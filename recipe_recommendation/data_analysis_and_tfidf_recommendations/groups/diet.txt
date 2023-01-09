@@ -1,0 +1,11 @@
+dietary
+low-sodium
+low-carb
+healthy
+low-cholesterol
+low-calorie
+vegetarian
+low-protein
+low-saturated-fat
+healthy-2
+low-fat

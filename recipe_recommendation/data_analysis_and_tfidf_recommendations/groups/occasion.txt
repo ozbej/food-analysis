@@ -1,0 +1,6 @@
+occasion
+dinner-party
+holiday-event
+lunch
+weeknight
+brunch
