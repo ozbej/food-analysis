@@ -21,17 +21,17 @@ The code for this task is located in `/ingredient_NER/` folder, with the followi
 
 ## Recipe Recommendation
 
-Code can be found in the `/recipe_recommendation/data_analysis_and_tfidf_recommendations` folder: 
+Code in the `/recipe_recommendation/main.py` folder: 
 
 ### Preprocessing and data analysis
     check_ingredient_list_to_description: Used to analyze the step by step description and the corresponding ingredient list of recipes.
     sort_tags_into_groups: Used to sort tags into label groups by hand, used in the multi target learning. 
 
-### Recommendation based on another Recipe (TFIDFVectorizer):
-    Pass the index of a recipe to get a list of similar recipes. 
-
-### Recommendation based on ingredient list (TFIDFVectorizer):
-    Pass ingredients to get matching recipes.
+### Baseline recommendation (TFIDFVectorizer):
+    Pass the index of a recipe or igredients list to get a list of similar recipes. 
 
 
-Code can be found in the `/recipe_recommendation/******` folder: 
+Code in the `/recipe_recommendation/recipe_analysis.ipynb` folder: 
+
+### Infer tags from recipe description BERT model + model additionally using the nutritions
+### Multitarget recipe embedding network for recipe recommendation
